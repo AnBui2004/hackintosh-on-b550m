@@ -23,3 +23,5 @@ If you use GPU instead of iGPU, open config.plist with OCAT, go to NVRAM, go to 
 - Install here: https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter
 # Hardware acceleration
 Turn off on software like Chrome, Visual Studio Code, Discord,... if you use iGPU.
+# Setup wizard starts too slow
+This can happen on macOS 15 if there is no network connection.
