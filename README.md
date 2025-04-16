@@ -5,6 +5,8 @@ Hackintosh on B550M
 - AMD Ryzen 7 5700G.
 - USB Wifi (Realtek 8811CU).
 - SSD (SATA).
+# Want to create your own?
+Watch this video (From EliteMacx86): https://www.youtube.com/watch?v=yibLQspI7oc
 # Required UEFI settings
 Watch this video (From EliteMacx86): https://www.youtube.com/watch?v=V7lRPBU2RMY
 # Fix error cannot boot into installer
