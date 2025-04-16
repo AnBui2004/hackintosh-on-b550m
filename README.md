@@ -4,6 +4,8 @@ Hackintosh on B550M
 - Asrock B550M Phantom Gaming 4.
 - AMD Ryzen 7 5700G.
 - USB Wifi (Realtek 8811CU).
+# Required UEFI settings
+Watch this video (From EliteMacx86): https://www.youtube.com/watch?v=V7lRPBU2RMY
 # Fix error cannot boot into installer
 Try disabling XMP, you can turn it back on after the installation is complete.
 # Fix the first boot loop error
