@@ -1,7 +1,7 @@
 # hackintosh-on-b550m
 Hackintosh on B550M (Tried with macOS 15 & 26)
 # My PC
-- Motherboard: Asrock B550M Phantom Gaming 4.
+- Motherboard: ASRock B550M Phantom Gaming 4.
 - CPU: AMD Ryzen 7 5700G.
 - iGPU: AMD Radeon Vega 8.
 - dGPU: ASUS Dual Radeon™ RX 6600 V3.
