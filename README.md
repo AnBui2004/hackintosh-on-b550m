@@ -20,6 +20,8 @@ Try disabling XMP, you can turn it back on after the installation is complete.
 If you use dGPU, try iGPU. After installation, go back to dGPU.
 # Fix the first boot loop error
 Open config.plist with OCAT, go to Misc and set SecureBootMode to Disabled.
+# Resizable BAR (dGPU)
+Tested and works with macOS 26.
 # Use the front audio port
 - For 7.1 CH HD Audio (Realtek ALC887/897 Audio Codec). In UEFI, select AC97 (with ALC897 codec), open config.plist with OCAT, go to NVRAM, go to 3rd line, in boot-args, replace "alcid=1" with "alcid=99".
 - If it doesn't work or your motherboard has a different sound chip, find out about the sound chip on your motherboard and see this table: https://github.com/acidanthera/AppleALC/wiki/Supported-codecs
