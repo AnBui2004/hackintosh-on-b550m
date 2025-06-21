@@ -13,7 +13,7 @@ Hackintosh on B550M (Tried with macOS 15 & 26)
 Watch this video (From EliteMacx86): https://www.youtube.com/watch?v=yibLQspI7oc
 Or on GitHub (lzhoang2801): https://github.com/lzhoang2801/OpCore-Simplify
 # Required UEFI settings
-Watch this video (From EliteMacx86): https://www.youtube.com/watch?v=V7lRPBU2RMY
+Watch this video (From EliteMacx86): https://www.youtube.com/watch?v=V7lRPBU2RMY + If using macOS 26 with dGPU, enable Resizable BAR.
 # Fix error cannot boot into installer (macOS 15)
 Try disabling XMP, you can turn it back on after the installation is complete.
 # Fix error cannot boot into installer (macOS 26)
