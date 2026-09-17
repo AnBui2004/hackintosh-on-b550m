@@ -28,9 +28,9 @@ Tested and works with macOS 26.
 - Find out about the sound chip on your motherboard and see this table to find correct layout id: https://github.com/acidanthera/AppleALC/wiki/Supported-codecs
 ## Use the front audio port (AppleALC)
 - For 7.1 CH HD Audio (Realtek ALC887/897 Audio Codec). In UEFI, select AC97 (with ALC897 codec), open config.plist with OCAT, go to NVRAM, go to 3rd line, in boot-args, replace `alcid=1` with `alcid=99`.
-## Voodoo HDA (macOS 26.1)
 > [!TIP]
-> AppleALC has been fixed and is working again, but I haven't tested it myself, you can look into it further on your own.
+> AppleALC has been fixed and is working on macOS 26, though I haven't tested it myself, you can look into it further on your own.
+## Voodoo HDA (macOS 26.1)
 - Since `AppleALC` no longer works on macOS 26.1, we have to switch to `Voodoo HDA`.
 - In `DP > PciRoot(0x0)/Pci(0x1F,0x3) > layout-id` enter the correct layout id, for example the layout id of the front port audio on my PC is `99` then when I need to convert `99` to hex it will be `63000000` so I will enter `63000000`. Currently the EFI built for macOS 26.1 here is set to layout id `1` (`01000000`). You can convert to Hex on this website, copy in the `Hex number line (2 digits)` and add `000000` at the end: https://www.rapidtables.com/convert/number/decimal-to-hex.html?x=99
 
