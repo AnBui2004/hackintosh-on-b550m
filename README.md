@@ -63,3 +63,5 @@ On macOS 15, instead of the "hello" text,... animation running, you may get a gr
 When using dGPU, macOS 26 may freeze and black screen when booting, if there is a hard drive read/write indicator light, see if it flashes. If the drive indicator light does not flash, it means it has frozen, press the reset button to restart. If it still freezes after restarting 3 times, reset NVRAM and try again. If you have reset NVRAM and tried restarting 3 times but it still freezes, boot into macOS Recovery, wait for Recovery to restart the computer automatically. If Recovery does not restart the computer automatically but freezes at the Apple logo, press the reset button and boot into macOS. If Recovery freezes, there may be a problem with the EFI configuration that makes both macOS and Recovery unable to boot and you need to fix the EFI.
 # NVMe SSD
 I installed macOS 26.1 in NVMe SSD and it worked.
+# USB
+If it freezes during boot, try unplugging some USB devices.
